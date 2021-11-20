@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruwbine's Homepage</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+    <script>
+        function CopyToClipboard(id)
+        {
+        var r = document.createRange();
+        r.selectNode(document.getElementById(id));
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(r);
+        document.execCommand('copy');
+        window.getSelection().removeAllRanges();
+        }
+        </script>
+    <img class="bg" src = "particles.gif">
+    <div class="all"> 
+   <section class="logo">
+        <div class="content">
+            <div class="text">ruwbine</div>
+        </div>
+
+
+   </section>
+<section class="links">
+    <nav>
+        <p  class="test" id ="discord">FF0000#7407</p>
+        <ul>
+            <li><a href="https://github.com/ruwbine"><img src = "icons/icons8-github.svg"></a></li>
+            <li><a href="https://t.me/aeterywww" ><img src = "icons/icons8-telegram-app.svg"></a></li>
+            <li><a href="#" onclick="CopyToClipboard('discord');return true;"><img src = "icons/icons8-discord.svg" height = "144px" width="144px"></a></li>
+            <li><a href="https://osu.ppy.sh/users/11158213"><img src = "icons/icons8-osu.svg"></a></li>
+            <li><a href="https://steamcommunity.com/id/ruwbine/"><img src = "icons/icons8-steam-circled.svg"></a></li>
+            <li><a href="https://vk.com/aeterywww"><img src = "icons/icons8-vk-circled.svg"></a></li>
+            <li><a href="https://www.pinterest.com/ruwb1ne/"><img src = "icons/icons8-pinterest.svg"></a></li>
+          
+            
+        </ul>
+    </nav>
+</section>
+    
+
+</div>
+</body>
+</html>
