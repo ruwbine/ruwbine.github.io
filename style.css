@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
-html {
-
-    scroll-behavior:smooth;
-}
-
-
 
 *{
     overflow:hidden;
@@ -38,7 +32,7 @@ scroll-snap-align: start;
             font-weight:300px; 
             text-transform:uppercase;
             transform:scale(2);
-            letter-spacing:4px;
+            letter-spacing:7px;
             padding:30px; 
             text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
             animation-name:textflicker;
